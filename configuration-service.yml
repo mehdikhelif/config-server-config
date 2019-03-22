@@ -1,0 +1,10 @@
+spring:
+  cloud:
+    config:
+      server:
+        overrides:
+           test: test
+        git:
+          repos:
+            serviceA: https://${gitConfigServer}/mehdikhelif/serviceA-config.git
+         
